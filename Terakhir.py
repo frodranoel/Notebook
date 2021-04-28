@@ -1,10 +1,3 @@
-# # buat catatan
-# # jadi nanti ada opsi buat input catatan
-# # yang isinya bab berapa, grammar, sama vocabularynya
-# # yang kedua buat liat catatan
-# # opsi tiga buat berhenti
-
-
 class catat:
   def __init__(self, *args, **kwargs):
       self.bab = kwargs.get('bab')
